@@ -1,0 +1,49 @@
+Raspberry Pi vs. Arduino Microcontroller Boards
+
+Ein Technologiefeld das fasziniert und jahrelang bisher eher Hobby-Technikern zuhause vorbehalten war, ist nun in einfacher und kompakter Form für jedermann als Gadget erhältlich. Die Rede ist von sogenannten Entwickler-Boards wie dem Raspberry Pi für den es mittlerweile eine breite Vielzahl an Unterstützung durch Gehäuse, Schnittstellen, Linux-Distributionen und Plugins frei im Internet verfügbar gibt. Des Weiteren überrascht die Ausstattung des Raspberry Pi in dieser kompakten Form! Ein weiterer Kandidat in diesem Rahmen ist das Arduino Entwickler-Board, welches lediglich mit einem USB-Anschluss zur Steuerung sowie einem Subset an Funktionen daher kommt. Simpel und kompakt!
+
+
+Arduino vs. Raspberry Pi
+
+Der Vergleich des Arduino mit dem Raspberry Pi ist eigentlich nicht fair, da die beiden kleinen Mini Computer zwar recht gleich aussehen, in Wirklichkeit aber eher sehr verschiedene Funktionen bieten. Der Arduino ist zwar auch ein Mini Computer ansich, bietet aber nur einen Bruchteil der Funktionen eines Raspberry Pi. Die Hardware ist vorallem eines, günstig und für jedermann zum Testen und Probieren geeignet. Die gebotenen Features und Funktionen beider Entwickler-Boards bieten viel Potential für junge neue Generationen von Smart People, die Entwickler-Boards als Toolkits zum Realisieren neuer Ideen ansehen. Das Einsatzgebiet kompakter Mini Computer ist grenzenlos und reicht vom komplexen Gebiet der Home Automation über Autos, Straßen- und Nahverkehr bis hin zu Schiffs-, Flugzeug- und Weltraumtechnik heutzutage.
+
+unboxing raspberry pi vs arduino uno
+
+Von der Größe her sind beide Mini Computer sehr kompakt, wobei der getestete Arduino UNO ca. 20% kleiner (kürzer) ist als das Rasperry Pi Board mit Gehäuse.
+
+Raspberry Pi
+
+Der Raspberry Pi liefert von Haus aus bereits eine Menge an Funktionen, wie wir sie von unseren Desktop und Notebook Computern her kennen. Dies sind die Schnittstellen wie USB, HDMI, Netzwerk und Sound Interfaces, die auf dem kompakten Raum des Raspberry Pi Boards ebenfalls untergebracht sind. Auf dem Raspberry Pi (Model B) sind gleich 2 USB Anschlüsse verbaut, die mithilfe eines aktiven USB-Hubs noch erweitert werden können.
+
+Als Spezifikationen und Schnittstellen sind auf dem Raspberry Pi folgende Anschlüsse verfügbar:Raspberry Pi (Revision Model B)
+
+Prozessor:	700 Mhz ARM 11 Familie
+Chip:	Broadcom BCM2835
+Grafik:	Broadcom VideoCore IV
+Arbeitsspeicher:	256 MB RAM
+USB:	2x  USB 2.0
+Ausgang:	HDMI 1.4
+Audio:	3,5mm Line out
+Laufwerk:	SD, MMC, SDIO Kartenleser
+Netzwerk:	100 Mbit/s Ethernet
+Stromzufuhr:	700 mA
+Arduino UNO
+
+Das Arduino Entwickler-Board kann kompilierten C-Code aber kein komplettes Betriebssystem ausführen. Ein Betriebsystem wie Linux kann nur der Raspberry Pi in speziell modifizierten Linux Versionen ausführen. Der Arduino Uno basiert dabei auf einem Atmel Prozessor vom Typ ATMega328 und ermöglicht den direkten und kostengünstigen Einstieg in die Programmierung von Microcontroller-Boards.
+
+Auf dem Microcontroller-Board sind die folgenden Anschlüsse verfügbar:Arduino uno microcontroller board
+
+Schnittstellen:	14 digitale I/O Interfaces
+Eingänge:	6 analoge
+Chip:	16 MHz Quarzoszillator
+USB:	USB-Anschluss
+Connector:	ICSP-Header
+EEPROM:	1 KB
+SRAM:	2 KB
+Flashspeicher:	32 KB
+Takt:	16 Mhz
+Fazit
+
+Während der Arduino Uno nur für sehr spezifische und einfache Programmieraufgaben geeignet ist, entspricht der Raspberry Pi schon sehr gut unserer Vorstellung eines kleinen, preiswerten Mini Computers.
+
+Als Betriebssystem für den Raspberry Pi wählten wir die Raspbian Linux Distribution, welche aktiv und speziell für den Raspberry Pi entwickelt wird. Die Installation erfolgt auf eine mindestens 4 GB große SD Karte. Anschließend bootet der Raspberry Pi das Raspbian Linux Image und stellt somit einen voll funktionsfähigen Mini Computer bereit, der sich nach Belieben programmieren und steuern lässt. Der Aufgabenbereich kann dabei vielseitig gewählt werden, wobei die Grenzen nur durch die eigene persönliche Kreativität gesetzt werden. Wir wünschen viel Spaß beim Programmieren und System integrieren.
