@@ -4,7 +4,7 @@ main = show "hallo"
 
 
 
-neue Programmiersprache unter elm-lang.org
+neue Programmiersprache unter http://elm-lang.org
 
 Beipsiele: http://elm-lang.org/examples
 
